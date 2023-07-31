@@ -1,8 +1,6 @@
 provider "aws" {
   region = var.aws_region
-  access_key = "AKIA2MBPOH6YVB3TOHXF"
-  secret_key = "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"
-}
+ }
 
 resource "aws_vpc" "jenkin_vpc" {
   cidr_block = var.vpc_cidr_block
