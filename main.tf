@@ -1,6 +1,10 @@
 provider "aws" {
   region = var.aws_region
+<<<<<<< HEAD
 }
+=======
+ }
+>>>>>>> 7c3e74e0e893188e8108b9d4766bc1f5d37d5b23
 
 resource "aws_vpc" "jenkin_vpc" {
   cidr_block = var.vpc_cidr_block
